@@ -14,7 +14,7 @@ const App = () => {
       {loading && <div id="loader"><ClockLoader size={30} color="blue" /></div>}
       <div id="item">
         {data.length > 0 ? data.map((item) => {
-          return <TodoItem id={item._id} key={item._id} time={item.createdAt} text={item.text} />
+          return <TodoItem array={data} id={item._id} key={item._id} time={item.createdAt} text={item.text} />
         }) : <h3>There is no item yet</h3>}
       </div>
     </div>

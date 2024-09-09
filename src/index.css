@@ -107,3 +107,64 @@ h3 {
   font-size: 20px;
   opacity: 0.4;
 }
+
+#update {
+  background: rgba(128, 128, 128, 0.601);
+  width: 300px;
+}
+
+#update::placeholder {
+  color: white;
+}
+
+#touch {
+  height: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    width: 90vw;
+    height: auto;
+    border-radius: 1vw;
+  }
+
+  input {
+    width: 90vw;
+    height: 10vw;
+    font-size: 3vw;
+  }
+
+  .add {
+    width: 12vw;
+    height: 10vw;
+    font-size: 3vw;
+  }
+
+  h3 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 3.5vw;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+  .todo-second button {
+    font-size: 3vw;
+  }
+
+  #update {
+    width: 66vw;
+  }
+  #touch {
+    width: 12vw;
+    height: 10vw;
+    font-size: 3vw;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
